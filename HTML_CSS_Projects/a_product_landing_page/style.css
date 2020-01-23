@@ -1,0 +1,143 @@
+
+body{
+	text-align: center;
+	width: 60%;
+	height: 70%;
+	background-color: rgba(140,206, 178, 0.75);
+	margin: 10px 10px 10px 10px;
+}
+#header{
+
+display: flex;
+position: fixed;
+margin-left: 0px;
+margin-top: 0px;
+
+}
+#header-img{
+	margin-left: 50px;
+	width: 50px;
+	height: 50px;
+
+}
+#nav-bar{
+float: right;
+//align-self: flex-end;
+margin-top: 0px;
+padding: 0px 20px 0px 20px;
+margin-left: 800px;
+display: flex;
+position: fixed;
+width: 100%;
+
+}
+
+#video{
+	margin: 100px 0px 0px 200px;
+
+}
+.nav-link {
+padding: 20px;
+
+}
+
+#form{
+	margin: 50px 0px 0px 200px;
+
+}
+#email{
+	width: 300px;
+	height: 25px;
+}
+#submit{
+	background-color: rgba(200, 200, 0, 0.7);
+	width: 100px;
+	height: 30px;
+
+}
+
+#selection {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin-top: 50px;
+	margin-left: 250px;
+}
+
+.price{
+	font-family: bold;
+	font-size: 27px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+#A {
+	border: 1px black solid;
+	background-color: white;
+	margin: 5px; 
+	padding: 20px;
+	justify-content: center;
+}
+
+#B {
+	border: 1px black solid;
+	background-color: white;
+	margin: 5px; 
+	padding: 20px;
+}
+h3{
+	font-size: 32px;
+}
+
+#C {
+	border: 1px black solid;
+	background-color: white;
+	margin: 5px; 
+	padding: 20px;
+}
+.choice{
+	background-color: rgba(245,245,10, 0.7);
+	text-transform: uppercase;
+	width: 100px;
+	height: 40px;
+	font-size: 25px;
+	padding: 10px;
+	text-align: center;
+	margin-left: 10%;
+
+
+}
+
+#feature{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.feature{
+	margin-top: 0px;
+}
+
+span{
+	font-size: 25px;
+	font-weight: bold;
+	color: green;
+}
+
+#footer{
+	display: flex;
+	align-self: flex-end;
+	
+	float: right;
+}
+
+.footer{
+	padding: 10px;
+}
+
+@media (max-width: 900px) { 
+
+	body{
+		background-color: orange;
+	}
+ }

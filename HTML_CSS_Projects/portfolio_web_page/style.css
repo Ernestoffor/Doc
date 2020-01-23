@@ -1,0 +1,95 @@
+#welcome-section{
+	height: 100vh;
+	text-align: center;
+	background-color: rgba(100,100,1,0.2);
+	margin-top: 0px;
+	padding-top: 40px;
+}
+
+#navbar{
+	height: 10vh;
+	text-align: right;
+	background-color: rgba(100,1,100, 0.6);
+	padding-right: 40px;
+	position: fixed;
+	/*display: flex;
+	flex-direction: row;
+	margin-left: 87%;
+	justify-content: flex-end; */
+}
+
+.nav{
+	padding: 20px 20px 20px 20px;
+}
+
+#profile-link{
+	display: flex;
+	background-color: rgba(1,1,250, 0.9);
+	justify-content: flex-end;
+}
+
+#image{
+	
+	padding: 20px;
+}
+ #projects{
+ 	width: 100vw;
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-around;
+ 	flex-wrap: wrap;
+ 	
+ 
+ }
+
+ #survey{
+	width: 45%;
+	height: 45%;
+	background-color: green;
+	margin: 20px;
+}
+.project-tile{
+	
+}
+#landing{
+	width: 45%;
+	height: 45%;
+	background-color: orange;
+	margin: 20px;
+}
+#norman{
+	width: 45%;
+	height: 45%;
+	background-color: yellow;
+	margin: 20px;
+}
+#tech{
+	width: 45%;
+	height: 45%;
+	background-color: blue;
+	margin: 20px;
+}
+#img1{
+	height: 410px;
+	width: 500px;
+}
+
+
+#img2{
+	height: 410px;
+	width: 500px;
+}
+#img3{
+	height: 410px;
+	width: 500px;
+}
+#img4{
+	height: 410px;
+	width: 500px;
+}
+
+h2{
+	font-size: 70px;
+	text-align: center;
+	color: rgba(111, 21, 123, 0.7);
+}

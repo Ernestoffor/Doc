@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1 id="title">freeCodeCamp Survey Form</h1>
+	<p id="description">Thank you for taking the time to help us improve the platform</p>
+	
+	<form action="#" id="survey-form">
+	<label for="name">Name</label> <br>
+	<input id="name" type="text" name="name"  placeholder="Enter your Name" id="name-label" required> <br>
+	<label for="email">Email</label> <br>
+	<input type="email" name="email" placeholder="Enter your Email Addres here" id="email" id="email-label"required > <br>
+	<label> Age (Optional) </label><br>
+	<input type="number" name="number" placeholder="Enter your Age in number" id="number" min="5" max="125" id="number-label"><br>
+	<p>Which option best describes your current role?</p> <br>
+	<select id="dropdown">
+		<option>Student</option>
+		<option>Full Time Job</option>
+		<option>Full Student</option>
+		<option>Do not want to say</option>
+		<option>Others</option>		
+	</select>
+
+	<p>Would you recommend freeCodeCamp to a friend?</p>
+	<label for="one">
+		<input id= "one" type="radio" name="answer" value="definitely">Definitely 
+	</label>
+	<br>
+	<label for="two">
+		<input id="two" type="radio" name="answer" value="agree" >Maybe
+	</label><br>
+	<label for="three">
+		<input id="three" type="radio" name="answer" value="disagree">Not Sure<br>
+
+	</label>
+	<p>What is your favorite feature of freeCodeCamp?</p>
+	<select id="favorite" placeholder="choose your favorite" > 
+		<option>Challenges</option>
+		<option>Projects</option>
+		<option>Community</option>
+		<option selected >Open Source</option>
+	</select>
+	<p>What would you like to see improved? (Check all that apply)</p>
+	<label>	<input type="checkbox" name="improve">Front-end Projects</label><br>
+	<label><input type="checkbox" name="improve">Back-end Projects</label><br>
+	<label><input type="checkbox" name="improve">Data Visualization</label><br>
+	<label><input type="checkbox" name="improve" checked>Challenges</label><br><br>
+	
+	<label> Comments
+		
+	
+	 <textarea>Comments</textarea>  <br><br>
+	 </label>
+
+	<label> <input id="submit" type="submit" name="submit"> </label>
+
+	</form>
+</body>
+</html>

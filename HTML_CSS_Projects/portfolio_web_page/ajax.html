@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script type="text/javascript">
+function createRequestObject() {
+var ro
+var browser = navigator.appName
+
+ro = new XMLHttpRequest()
+
+return ro
+}
+var http = createRequestObject()
+function sndReq() {
+http.open('get', 'ajaxgreeting.xml', true)
+http.onreadystatechange = handleResponse
+http.send(null)
+}
+function handleResponse() {
+if(http.readyState == 4){
+var response = http.responseXML.documentElement;
+var helloobj = response.getElementsByTagName("HELLO")
+alert(helloobj[0].firstChild.data)
+}
+}
+</script>
+</head>
+<body>
+<form>
+<input type="button" value="SendGreeting" onClick="sndReq()" />
+</form>
+</body>
+</html>

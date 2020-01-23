@@ -1,0 +1,100 @@
+
+body {
+	background-color: #AAAAAA;
+}
+h1{
+	color: darkblue;
+}
+#navbar{
+	background-color: rgba(0, 250, 0, 0.2);
+	text-align: left;
+	width: 18%;
+	font-size: 14px;
+	position: fixed;
+
+}
+#navbar h1{
+	background-color: rgba(0, 250, 0, 0.2);
+
+}
+.nav-link{
+	padding: 0px 20px 0px 0px;
+	color: rgba(10,250,240, 0.99);
+	font-weight: bold;
+	margin-left: 0;
+	background-color: rgba(0,0,255,0.7);
+	
+	
+}
+
+@media (max-width: 600px) { 
+
+	body{
+		background-color: green;
+	}
+ }
+
+ #main-doc{
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	flex-direction: column;
+ 	padding: 20px;
+ 	text-align: center;
+ 	width: 60%;
+ 	height: 100%;
+ 	margin-left: 230px;
+ 	
+ 	background-color: white;
+ }
+
+ #main-section{
+ 	width: 50%;
+ 	height: 30%;
+ 	border: 1px black solid;
+ }
+              
+ #R_Programming{
+ 	width: 50%;
+ 	height: 30%;
+ 	border: 1px black solid;
+ 	padding: 20px;
+ 	margin: 10px 20px 10px 140px;
+ }
+
+ #JavaScript_and_Java{
+ 	width: 50%;
+ 	height: 30%;
+ 	border: 1px black solid;
+ 	padding: 20px;
+ 	margin: 10px 20px 10px 140px;
+ }
+
+ #C_and_Cpp{
+ 	width: 50%;
+ 	height: 30%;
+ 	border: 1px black solid;
+ 	padding: 20px;
+ 	margin: 10px 20px 10px 140px;
+ }
+
+ #Python{
+ 	width: 50%;
+ 	height: 30%;
+ 	border: 1px black solid;
+ 	padding: 20px;
+ 	margin: 10px 20px 10px 140px;
+ }
+ #Ruby{
+ 	width: 50%;
+ 	height: 30%;
+ 	border: 1px black solid;
+ 	padding: 20px;
+ 	margin: 10px 20px 10px 140px;
+ }
+ #Machine_Learning{
+ 	width: 50%;
+ 	height: 30%;
+ 	border: 1px black solid;
+ 	padding: 20px;
+ 	margin: 10px 20px 10px 140px;
+ }

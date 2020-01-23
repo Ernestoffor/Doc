@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A Technical Documentation Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<nav id="navbar">
+				<header>
+					<h1> Programming Languages</h1>
+				</header>
+				<li><a class="nav-link" href="#JavaScript_and_Java" >JavaScript and Java</a></li>
+				<li><a class="nav-link" href="#C_and_Cpp">C and Cpp</a></li>
+				<li><a class="nav-link" href="#Python">Python</a></li>
+				<li><a class="nav-link" href="#R_Programming" >R Programming</a></li>
+				<li><a class="nav-link" href="#Ruby">Ruby</a></li>
+				<li><a class="nav-link" href="#Machine_Learning">Machine Learning</a></li>
+	</nav>
+
+
+	<main id="main-doc">
+		
+		<section class="main-section" id="JavaScript_and_Java">
+			<header >
+				<h3>JavaScript and Java</h3>
+					</header>
+					<ul>
+						<li><p>An Example of JavaScript:</p></li>
+					</ul>
+				<code>
+					
+<p>function myFunction()  {<br>
+  var x = document.getElementById("btn1").name;<br>
+  document.getElementById("demo").innerHTML = x;</p>
+}
+
+
+				</code>
+			
+		</section>
+		<section class="main-section" id="C_and_Cpp">
+			<header >
+				<h3>C and Cpp</h3>
+			</header>
+			<ul>
+				<li>
+					<p>Example of C++ Code: </p>
+				</li>
+			</ul>
+			<code>
+				<p>#include <iostream>
+ 
+using namespace std; </p>
+ 
+int main()
+{
+  int year; <br>
+  cout<<"Enter a year: "<< endl;
+  cin>> year;<br>
+  if((year % 4) ==0)
+  {
+    cout<<" Leap Year ";
+  }<br>
+  else
+  {
+    cout <<" Not a Leap Year" << endl;
+  }<br>
+  return 0;
+}
+ 
+			</code>
+		</section>
+		<section class="main-section" id="Python">
+			<header >
+				<h3>Python</h3> 
+			</header>
+
+			<ul>
+				<li>
+				<p>Example of Python Function</p>
+				</li>
+			</ul>
+
+			<code>
+				<p>start = 11 
+				end = 25 </p>
+  
+		for val in range(start, end + 1): <br>
+      
+    if val > 1: 
+       for n in range(2, val): <br>
+           if (val % n) == 0: 
+               break <br>
+       else: 
+           print(val) <br>
+			</code>
+		</section>
+
+		<section class="main-section" id="R_Programming">
+			<header >
+				<h3>R Programming</h3>
+			</header>
+			<ul>
+				<p><li> Example of R code:</li></p>
+			</ul>
+			<code>
+				countdown <- function(from)
+{ <p>
+  print(from)
+  while(from!=0) </p>
+  {
+    Sys.sleep(1)
+    from <- from - 1 <br>
+    print(from)
+  }
+}
+<br>
+countdown(5)
+			</code>
+		</section>
+		<section class="main-section" id="Ruby">
+			<header >
+				<h3>Ruby</h3>
+			</header>
+			<ul>
+				<p><li>Example of Ruby Function:</li></p>
+			</ul>
+			<code>
+				def sum_eq_n?(arr, n) <p>
+  return true if arr.empty? && n == 0</p>
+  arr.product(arr).reject { |a,b| a == b }.any? <br>{ |a,b| a + b == n }<br>
+  				end
+			</code>
+		</section>
+
+		<section class="main-section" id="Machine_Learning">
+			<header >
+				<h3>Machine Learning</h3>
+			</header>
+			<ul>
+				<p><li>Example of ML Algorithm:</li></p>
+			</ul>
+			<code>
+				$ conda create -n nightly_pt python=3.6 numpy <p>
+$ source activate nightly_pt </p>
+
+import torchvision.transforms as transforms <br>
+import torchvision.datasets as datasets<br>
+import torchvision.models as models<br>
+
+from torch.multiprocessing import Pool, Process
+			</code>
+		</section>
+	</main>
+</body>
+</html>

@@ -1,0 +1,62 @@
+#mg-div {
+	background-color: white;
+	
+}
+
+#main {
+	
+	background-color: rgba(251,252,215, 0.2);
+	font-size: 1.3rem;
+
+	line-height: 1.5;
+	
+}
+ul{
+	margin-left: 250px;
+	margin-right: 250px;
+	
+
+	}
+	.quote {
+		margin-left: 250px;
+		margin-right: 250px;
+	}
+
+#image{
+	width: 90%;
+height: auto;
+min-width: 80px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+padding: 10px;
+	
+}
+#title{
+	text-align: center;
+	font-size: 2.5rem;
+	display: block;
+	}
+
+
+#cap1{
+	text-align: center;
+}
+
+#tribute-info{
+	text-align: center;
+	font-weight: bold;
+
+
+}
+
+#img-caption{
+	text-align: center;
+}
+
+.name{
+	margin-left: 250px;
+}
+.last{
+	text-align: center;
+}

@@ -1,0 +1,81 @@
+
+#title{
+
+}
+
+body{
+	background-color: rgba(4,2, 255, 0.5);
+	text-align: center;
+}
+
+label{
+	//margin-right:  300px;
+}
+
+#survey-form {
+	width: 650px;
+	height: 900px;
+	text-align: center;
+	margin-left: 300px;
+	background-color: rgba(50,50, 230, 0.8);
+	//display: flex;
+	
+	border:   2px solid gray;
+
+  border-radius: 5px;
+}
+
+#name {
+	width: 400px;
+	height: 35px;
+
+}
+#email {
+	width: 400px;
+	height: 35px;
+
+}
+#number {
+	width: 400px;
+	height: 35px;
+
+}
+
+
+
+#one{
+	width: 70px;
+	height: 15px;
+
+}
+
+#two {
+	width: 70px;
+	height: 15px;
+
+}
+
+#three {
+	width: 70px;
+	height: 15px;
+
+}
+
+#submit {
+	width: 100px;
+	height: 30px;
+}
+
+#dropdown {
+	width: 400px;
+	height: 35px;
+}
+
+#favorite {
+	width: 400px;
+	height: 25px;
+}
+#desc {
+	width: 400px;
+	height: 55px;
+}
