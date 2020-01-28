@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Introduction To DOM Manipulation by JS</title>
+    <style media="screen">
+      #div1{
+        background-color: #00ff00;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="class1" id="div1">
+      Hello World
+    </div>
+    <button class="class1" type="button" name="button" id="btn1">Press Me</button>
+    <form  id="form1">
+      Name: <input type="text" >
+      <input type="submit"  value="save">
+    </form>
+    <script type="text/javascript">
+      let form1 = document.getElementById('form1');
+      let class1 = document.getElementsByClassName("class1");
+      let div1 = document.getElementById('div1');
+        let btn1 = document.getElementById('btn1');
+        let classAtt = div1.getAttribute('class');
+      let divHTML = div1.innerHTML;
+      let newDiv = document.createElement('div');
+      newDiv.innerHTML = 'I am a new div addeded to the original div';
+      div1.appendChild(newDiv);
+      //alert(classAtt);
+      btn1.addEventListener('click', function(event){
+        let target = event.target;
+
+        alert(target.innerHTML);
+      });
+      form1.addEventListener('submit', function(event){
+        event.preventDefault();
+        let textInput = form1.elements[0];
+        alert(textInput.value);
+      });
+
+    </script>
+  </body>
+</html>

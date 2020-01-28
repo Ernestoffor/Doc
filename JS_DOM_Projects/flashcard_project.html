@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Spannish Flashcards</title>
+    <style media="screen">
+      body{
+        background-color: #5f9fff;
+        padding: 40px;
+        font-family: courier;
+      }
+      .container{
+       display:  flex;
+       flex-flow: row wrap;
+       justify-content: space-around;
+
+      }
+      .card{
+        margin-top: 10px;
+        border-radius: 10px;
+        padding: 20px;
+        background: white;
+        flex: none;
+      }
+    .card-title .card-answer{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .card-button{
+      width: 100%;
+      background: white;
+      margin-top: 10px;
+      border: 1px solid blue;
+      color: #0070bb;
+    }
+    .card-answer{
+      display: none;
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class=""> <img src="https://i.imgur.com/m7V214m.png" alt=""> </div>
+        <div class="card-title"> Apple </div>
+        <button class="card-button">Show</button>
+        <div class="card-answer"> Manzana</div>
+      </div>
+
+      <div class="card">
+        <div class="img2"> <img src="https://i.imgur.com/cT315ZL.png" alt=""> </div>
+
+        <div class="card-title"> Dog </div>
+        <button class="card-button">Show</button>
+        <div class="card-answer"> Perro</div>
+        </div>
+
+        <div class="card">
+          <div class=""> <img src="https://i.imgur.com/iZFJqMM.png" alt=""> </div>
+          <div class="card-title"> City </div>
+          <button class="card-button">Show</button>
+          <div class="card-answer"> Ciudad</div>
+          </div>
+          <div class="card">
+            <div class=""> <img src="https://i.imgur.com/wMVc7qo.png" alt=""> </div>
+            <div class="card-title"> Chair </div>
+            <button class="card-button">Show</button>
+            <div class="card-answer"> Silla</div>
+          </div>
+    </div>
+
+    <script type="text/javascript">
+      for(let i =0; i<document.getElementsByClassName('card-button').length;i++){
+      let button1 = document.getElementsByClassName('card-button')[i];
+      let answer1 = document.getElementsByClassName('card-answer')[i];
+      button1.addEventListener('click', function(event){
+        if(button1.innerHTML==="Show"){
+        answer1.style.display = 'Block';
+        button1.innerHTML = "Hide";
+        }
+        else{
+          answer1.style.display = 'none';
+          button1.innerHTML = "Show";
+        }
+      });
+      }
+    </script>
+
+  </body>
+</html>
